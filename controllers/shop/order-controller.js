@@ -26,8 +26,8 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "https://ecommerce-frontend-phi-teal.vercel.app/:5173/shop/paypal-return",
-        cancel_url: "https://ecommerce-frontend-phi-teal.vercel.app//shop/paypal-cancel",
+        return_url: "https://ecommerce-frontend-phi-teal.vercel.app/shop/paypal-return",
+        cancel_url: "https://ecommerce-frontend-phi-teal.vercel.app/shop/paypal-cancel",
       },
       transactions: [
         {
